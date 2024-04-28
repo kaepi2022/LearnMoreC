@@ -14,7 +14,7 @@ int main(void){
 //GoodManさん
     if (strcmp(UserID,"GoodMan") == 0 || strcmp(UserID,"GoodManOresanjyo@gmail.com") == 0) {
 
-        if (strcmp(UserID,"I'mGoodMan@gmail.com") == 0){
+        if (strcmp(UserID,"GoodManOresanjyo@gmail.com") == 0){
             strcpy(UserID,"GoodMan"); //メ-ルアドレスを正式なユ-ザ-IDに変換
 
         }
