@@ -13,9 +13,9 @@ int main(void){
     mounth = 0;
     money = 0;
 
-    while (money < mokumoney){
+    while (money <= mokumoney){
         money += givemoney;
-        mounth += 1;
+        mounth ++;
     }
 
     printf("%dカ月後に%d円になります。\n" ,mounth,mokumoney);
